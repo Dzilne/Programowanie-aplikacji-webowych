@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesydżys</title>
+    <style>
+        *{
+            font-family: verdana;
+        }
+        #submitBtn{
+            background-color: hotpink;
+            color:white;
+            padding:0;
+            border:0;
+            border-radius:20px;
+        }
+        textarea{
+            border-radius:20px;
+            padding:0;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Messages</h1>
+    <form action="/kontakt" method="post">
+        <label>
+            Content of your message bruv:<br>
+            <textarea rows="10" cols="70" placeholder="Napisz wiadomość..." name="message"></textarea>
+        </label><br>
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>
