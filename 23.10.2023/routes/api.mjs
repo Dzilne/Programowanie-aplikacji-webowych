@@ -93,7 +93,7 @@ const subjects = [
     },
     {
         id: 6,
-        subject: "Biologia",
+        subject: "Mista White Cooking Class",
         hoursAWeek: 1
     },
     {
@@ -108,12 +108,12 @@ const subjects = [
     },
     {
         id: 9,
-        subject: "WoS",
-        hoursAWeek: 1
+        subject: "Deutschland Deutschland über alles",
+        hoursAWeek: 1939
     },
     {
         id: 10,
-        subject: "Informatyka",
+        subject: "Giżownia",
         hoursAWeek: 420
     }
 ]
