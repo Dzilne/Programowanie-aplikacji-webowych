@@ -1,0 +1,31 @@
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "./prisma/client"
+}
+
+model students {
+  id    Int    @id @default(autoincrement())
+    name    String @db.VarChar(30)
+    surname String @db.VarChar(30)
+    email   String @db.VarChar(70)
+}
+
+model form_submissions {
+  id        Int    @id @default(autoincrement())
+  firstName String @db.VarChar(30)
+  email     String @db.VarChar(70)
+  topic     String @db.VarChar(40)
+  message   String @db.Text
+}
+
+model Subject {
+  id    Int    @id @default(autoincrement())
+    subject    String @db.VarChar(70)
+  hoursAWeek Int
+}
