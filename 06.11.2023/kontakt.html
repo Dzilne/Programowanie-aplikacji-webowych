@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Formularz</title>
+</head>
+<body>
+    <form method="post" id="form1">
+        <label>
+            Imię:
+            <input type="text" name="firstName">
+        </label>
+        <label>
+            Adres e-mail:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Temat:
+            <select name="topic">
+                <option value="orders">Zamówienia</option>
+                <option value="other">Inne</option>
+            </select>
+        </label>
+        <label>
+            Mesydż:
+            <textarea cols="20" rows="20" name="message"></textarea>
+        </label>
+        <input type="submit" value="Wyślij">
+    </form>
+    <!--<script type="text/javascript" src="/js/secure.js"></script>-->
+</body>
+</html>
