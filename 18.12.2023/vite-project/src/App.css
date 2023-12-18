@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+  
+  
+    li {
+      display: inline;
+      margin-right: 1rem;
+    }
+  
+    a {
+      color: white;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  footer{
+    background-color: hotpink;
+    color: white;
+  }
+  
